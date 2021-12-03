@@ -9,8 +9,8 @@ body {
   overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
   }
-
-header {
+  
+  header {
   display: flex;
   color: white;
   align-items: center;
@@ -38,7 +38,7 @@ ul {
 .content {
   text-align: left;
   padding: 10px;
-  background-color: #16100c; 
+  background-color: #16100c;
 }
 
 h1 {
@@ -505,7 +505,6 @@ textarea::placeholder {
   flex-direction: row;
   align-items: center;
   padding: 0;
-  margin: 25px;
   height: 40px;
   left: calc(50% - 200px / 2 + 0.5px);
   top: calc(50% - 40px / 2);
