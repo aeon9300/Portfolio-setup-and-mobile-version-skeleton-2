@@ -10,7 +10,7 @@ body {
   font-family: 'Poppins', sans-serif;
   }
   
-  header {
+header {
   display: flex;
   color: white;
   align-items: center;
@@ -184,7 +184,7 @@ h1 {
   font-size: 18px;
   padding: 5px;
   margin: 7px 11px;
-  }
+}
 
 #button {
   color: #fff;
@@ -246,7 +246,6 @@ button:enabled {
 .btn:enabled {
   background: #ff6c03;
 }
-
 
 .about {
   background-color: black;
