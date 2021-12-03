@@ -4,15 +4,15 @@
 # Build a portfolio setup and mobile version skeleton
 
 ## Description
-> My portfolio project.
+> My Portfolio Setup Project Mobile Version.
 
 ## Built With
 
-- html
-- css
+- HTML
+- CSS
 
 ## Procedure to clone project
-- open your terminal
+- Open your terminal
 - type git clone git@github.com:aeon9300/Portfolio-setup.git
 - run the project in your local machine
 - Run the project in you browser 
