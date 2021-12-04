@@ -137,11 +137,13 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .post-stories {
   width: 90%;
   margin: 0 auto;
   margin-top: 80px;
 }
+
 .picture {
   height: 53px;
   font-size: 20px;
@@ -158,8 +160,8 @@ h1 {
   margin-top: 24px;
   font-family: 'Crete Round', serif;
   color: #091e42;
-  margin-bottom: 0px;
-  }
+  margin-bottom: 0;
+}
 
 .daily {
   color: #091e42;
@@ -180,17 +182,17 @@ h1 {
 }
 
 .post-tag {
-height: 40px;
-border-radius: 0px;
-padding: 5px 15px;
-border: 1px solid #8993A4;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 15px;
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: bold;
+  height: 40px;
+  border-radius: 0;
+  padding: 5px 15px;
+  border: 1px solid #8993a4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
 }
 
 #button {
@@ -212,13 +214,6 @@ button:enabled {
 }
 
 .bottom {
-  /* overflow: hidden;
-  margin-top: 20px;
-  background-size: cover;
-  margin-bottom: -58px;
-  padding: 24px 1px 24px;
-  position: relative;
-  margin-left: 24px; */
   height: 386px;
   width: 90%;
   margin: 0 auto;
@@ -337,7 +332,6 @@ button:enabled {
   padding: 94px 1px 94px 1px;
   font-weight: bold;
   font-family: 'Inter', sans-serif;
-  font-weight: 400;
   line-height: 44px;
   margin-top: -6px;
 }
@@ -380,7 +374,6 @@ button:enabled {
   font-weight: normal;
   font-size: 22px;
   color: #fff;
-  font-weight: normal;
   margin-bottom: 20px;
 }
 
