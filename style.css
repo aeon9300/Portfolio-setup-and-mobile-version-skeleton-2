@@ -414,7 +414,6 @@ button:enabled {
   margin-bottom: 30px;
 }
 
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -436,7 +435,7 @@ button:enabled {
   text-align: center;
   color: #172b4d;
   height: 216px;
-  margin-top: -112%;
+  margin-top: -80%;
   letter-spacing: 0.03em;
   justify-self: center;
   margin-bottom: -20%;
@@ -596,4 +595,3 @@ textarea::placeholder {
   margin-top: 5%;
   margin-left: 9%;
 }
-
