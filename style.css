@@ -561,6 +561,7 @@ button:active {
 button:hover {
   background: #fff5e1;
   color: #f55800;
+  transition: 2s;
 }
 
 textarea::placeholder {
