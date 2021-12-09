@@ -440,8 +440,7 @@ button:enabled {
   flex-direction: column;
   height: auto;
   background-color: #fff;
-  align-items: center;
-  margin: 4930px 27px 0 0px;
+  margin: 4930px 27px 0 0;
   width: 375px;
 }
 
@@ -521,11 +520,10 @@ textarea {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  height: 114px;
   width: 90%;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
+  left: 0;
+  top: 0;
+  border-radius: 0;
 }
 
 .button_class {
@@ -553,10 +551,6 @@ textarea {
 button:disabled {
   background: #f4f1f0;
   color: #5b5957;
-}
-
-button:enabled {
-  background: #f55800;
 }
 
 button:active {
