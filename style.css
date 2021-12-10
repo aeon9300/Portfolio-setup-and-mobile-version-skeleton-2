@@ -44,7 +44,7 @@ header a {
 }
 
 .toggle {
-  margin-inline-end: 5%;
+  margin-inline-end: 8%;
 }
 
 .toggle li i {
@@ -122,8 +122,8 @@ h1 {
   margin-top: -117px;
 }
 
-.item {
-  margin-left: 24px;
+.icon-item {
+  color: white;
 }
 
 .work-section h4 {
@@ -473,7 +473,9 @@ button:enabled {
 }
 
 .player {
+  padding-left: 20px;
   flex: 1;
+  margin: 0 auto;
   margin-top: 73px;
 }
 
@@ -504,15 +506,18 @@ input {
 .form {
   flex: 1;
   margin-top: 36.5px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 327px;
+  width: 80%;
+}
+
+input[type='text'] {
+  margin-bottom: -10px;
 }
 
 textarea {
   flex: 1;
-  height: 114px;
+  height: 90px;
   padding: 12px;
+  margin: 0 auto;
   margin-top: 24px;
   background-color: #fbf8f7;
   border: none;
@@ -521,10 +526,10 @@ textarea {
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  width: 90%;
   left: 0;
   top: 0;
   border-radius: 0;
+  width: 100%;
 }
 
 .button_class {
@@ -540,6 +545,8 @@ textarea {
   line-height: 24px;
   border: none;
   cursor: pointer;
+  margin-bottom: 45px;
+  margin-top: -5px;
 }
 
 .buttonclub {
@@ -549,20 +556,38 @@ textarea {
   margin-top: 24px;
 }
 
-button:disabled {
+.btn:disabled,
+#Resume:disabled,
+#button:disabled,
+.button_class:disabled {
   background: #f4f1f0;
   color: #5b5957;
 }
 
-button:active {
+.btn:active,
+#Resume:active,
+#button:active,
+.button_class:active {
   background: #e05304;
   color: #f4f1f0;
 }
 
-button:hover {
+.btn:link,
+#Resume:link,
+#button:link,
+.button_class:link {
+  background: #f55800;
+  color: #fff;
+}
+
+.btn:hover,
+#Resume:hover,
+#button:hover,
+.button_class:hover {
   background: #fff5e1;
   color: #f55800;
-  transition: 2s;
+  border: 1px solid #f55800;
+  transition: all 0.5s ease-in-out;
 }
 
 textarea::placeholder {
@@ -583,9 +608,8 @@ textarea::placeholder {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
+  justify-content: start;
+  padding-left: 1.2rem;
 }
 
 .githubx {
@@ -616,12 +640,4 @@ textarea::placeholder {
 .shape {
   width: 50%;
   margin: 0;
-}
-@keyframes animation {
-  from {
-    margin-left: 100%;
-  }
-  to {
-    margin-right: 100%;
-  }
 }
