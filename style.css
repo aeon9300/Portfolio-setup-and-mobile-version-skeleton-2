@@ -93,6 +93,7 @@ h1 {
   margin: 12px 0;
   margin-bottom: 10px;
   margin-left: 24px;
+  animation: 3s animation;
 }
 
 .content p {
@@ -640,13 +641,3 @@ textarea::placeholder {
   width: 50%;
   margin: 0;
 }
-dataa
-
-areaa
-areaa
-area
-area
-area
-area
-a
-areaa
