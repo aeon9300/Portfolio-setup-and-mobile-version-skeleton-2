@@ -465,9 +465,7 @@ p.p-contact {
   line-height: 44px;
   text-align: center;
   color: rgba(23, 43, 77, 1);
-  /* width: 329px; */
   margin-bottom: 60px;
-  /* margin-left: 20px; */
 }
 
 input {
@@ -671,7 +669,6 @@ hr {
     display: flex;
     flex-direction: column;
     left: 40px;
-
   }
 
   .social-icons li {
@@ -726,43 +723,56 @@ hr {
     opacity: 0.9;
   }
 
+  .abt-btn {
+    background: rgba(255, 107, 0, 1);
+    order: 2;
+    width: 161px;
+    height: 48px;
+    margin-top: 24px;
+    margin-bottom: 70px;
+    color: white;
+    font-size: 17px;
+    border: none;
+    font-weight: bold;
+  }
+
   .btn:disabled,
-.abt-btn:disabled,
-.p-btn:disabled,
-.btn-card,
-.contact-btn:disabled {
-  background: #f4f1f0;
-  color: #5b5957;
-}
+  .abt-btn:disabled,
+  .p-btn:disabled,
+  .btn-card:disabled,
+  .contact-btn:disabled {
+    background: #f4f1f0;
+    color: #5b5957;
+  }
 
-.btn:active,
-.abt-btn:active,
-.p-btn:active,
-.btn-card,
-card-btn:active,
-.contact-btn:active {
-  background: #e05304;
-  color: #f4f1f0;
-}
+  .btn:active,
+  .abt-btn:active,
+  .p-btn:active,
+  .btn-card:active,
+  .card-btn:active,
+  .contact-btn:active {
+    background: #e05304;
+    color: #f4f1f0;
+  }
 
-.btn:link,
-.abt-btn:link,
-.p-btn:link,
-card-btn:link,
-.contact-btn:link {
-color: #fff;
-}
+  .btn:link,
+  .abt-btn:link,
+  .p-btn:link,
+  .card-btn:link,
+  .contact-btn:link {
+    color: #fff;
+  }
 
-.btn:hover,
-.abt-btn:hover,
-.p-btn:hover,
-.card-btn:hover,
-.contact-btn:hover {
-  background: #fff5e1;
-  color: #f55800;
-  border: 1px solid #f55800;
-  transition: all 0.5s ease-in-out;
-}
+  .btn:hover,
+  .abt-btn:hover,
+  .p-btn:hover,
+  .card-btn:hover,
+  .contact-btn:hover {
+    background: #fff5e1;
+    color: #f55800;
+    border: 1px solid #f55800;
+    transition: all 0.5s ease-in-out;
+  }
 
   .container {
     display: grid;
@@ -938,19 +948,6 @@ color: #fff;
     top: 232px;
   }
 
-  .abt-btn {
-    background: rgba(255, 107, 0, 1);
-    order: 2;
-    width: 161px;
-    height: 48px;
-    margin-top: 24px;
-    margin-bottom: 70px;
-    color: white;
-    font-size: 17px;
-    border: none;
-    font-weight: bold;
-  }
-
   .about {
     width: 100%;
     padding: 120px 142px;
@@ -976,7 +973,6 @@ color: #fff;
     padding: 120px 24px;
     width: 100%;
     color: white;
-    /* border-top: 1px solid white; */
   }
 
   .about-2 > div {
@@ -1077,7 +1073,3 @@ color: #fff;
     border-top: none;
   }
 }
-
-/* @media only screen and (max-width: 425px) {
-
-} */
