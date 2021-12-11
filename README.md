@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio-setup
-# Build a portfolio setup and mobile version skeleton
+# Build a Portfolio Desktop Version
 
 ## Description
-> My Portfolio Setup Project Mobile Version.
+> My Portfolio Setup Project Desktop Version.
 
 ## Built With
 
