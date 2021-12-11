@@ -726,6 +726,44 @@ hr {
     opacity: 0.9;
   }
 
+  .btn:disabled,
+.abt-btn:disabled,
+.p-btn:disabled,
+.btn-card,
+.contact-btn:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
+.btn:active,
+.abt-btn:active,
+.p-btn:active,
+.btn-card,
+card-btn:active,
+.contact-btn:active {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
+.btn:link,
+.abt-btn:link,
+.p-btn:link,
+card-btn:link,
+.contact-btn:link {
+color: #fff;
+}
+
+.btn:hover,
+.abt-btn:hover,
+.p-btn:hover,
+.card-btn:hover,
+.contact-btn:hover {
+  background: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+  transition: all 0.5s ease-in-out;
+}
+
   .container {
     display: grid;
     margin: 0 auto;
