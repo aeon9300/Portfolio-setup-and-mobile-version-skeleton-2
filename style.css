@@ -774,6 +774,12 @@ hr {
     transition: all 0.5s ease-in-out;
   }
 
+  .p-contact:hover {
+    transform: translate(50px);
+    transition-duration: 0.75s;
+    transition-delay: 0.5s;
+  }
+
   .container {
     display: grid;
     margin: 0 auto;
@@ -786,8 +792,15 @@ hr {
   }
 
   .w-image {
-    width: 517px;
-    margin-right: 24px;
+    /* width: 417px; */
+    margin-right: 44px;
+    transition-duration: 1.25s;
+    transition-delay: 0.25s;
+  }
+  
+  
+  .w-image:hover {
+    transform: scale(1.1);
   }
 
   .right-block {
