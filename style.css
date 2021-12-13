@@ -797,8 +797,7 @@ hr {
     transition-duration: 1.25s;
     transition-delay: 0.25s;
   }
-  
-  
+
   .w-image:hover {
     transform: scale(1.1);
   }
